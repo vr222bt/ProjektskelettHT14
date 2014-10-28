@@ -1,0 +1,53 @@
+Presentation 1ik415
+Jag tänkte prata om Webb formulär och hur vi kan göra dom inbjudande och lätta att använda för vanligt folk.
+
+Jag börjar med att presentera mig lite kort.
+Jag heter Victor och är 21 år gammal. 
+Jag är född och uppväxt i Motala.
+
+Input fälten är en väldigt viktig del av nästan vilken webbsida som helst.
+Det är inte ofta man ser en webbsida som inte använder sig av någon form av sökfält och inloggning.
+Det är med hjälp av formulär som användaren interagerar med våran webbsida.
+Då kanske det är lämpligt att vi lägger lite mer tid på att göra våra formulär lite mer lätta att arbeta med.
+
+Hur ska vi då göra detta kan man då fråga sig?
+Till vår hjälp finns en hel del attribut som vi känner igen som t.ex type som kan ha värdet text alternativt de nyare email eller url med flera.
+Med html5 kom även required-attributet som gör att man måste fylla i det berörda input fältet innan man kan skicka formuläret.
+Man bör dock tänka sig för innan man gör alla fält required. Är verkligen alla fält så viktiga att man vill hindra användaren från att skicka formuläret om man inte anger allt?
+Förmodligen inte. Man kan till och med fundera på om informationen är användbar överhuvudtaget eller om man bör ta bort den helt från formuläret.
+
+Då vill man ju också komma åt att stila våra olika input fält på olika sätt beroende på om dom är required eller inte.
+Och det kan man göra också med hjälp av pseudoklasserna :required och :optional
+:required låter oss stila alla input fält som har attributet required
+:optional är motsatsen och låter oss alltså stila dom fält som inte är required
+Det är viktigt att man markerar på ett tydligt sätt vad som är required. Det brukar man göra med exempelvis en asterisk eller något liknande.
+Vad man än väljer för sätt att markera det på bör man tänka på att det står någonstans att till exempel fält med asterisk är required.
+
+Det finns några fler bra pseudoklasser som kan vara mycket lämliga att använda sig av
+Dessa är :valid och :invalid
+När vi använder t.ex attributet type="email" så validerar den så att man verkligen anger något som kan tolkas som en email address
+Då kan vi med hjälp av pseudoklasserna :valid och :invalid ge det fältet olika stilar beroende på om man anger en korrekt mail adress eller om man råkar skriva i sitt förnamn istället.
+Det kan även vara lämpligt att använda :focus och :hover ,som vi tidigare använt vid framförallt länkar, för att användaren ska ha lättare att navigera formuläret.
+
+Det är viktigt att tänka på är att inte blanda ihop label-elementet med placeholder-attributet. (Label ≠ Placeholder)
+Label ska användas för att beskriva vad för information som ska matas in medans placeholder ska användas för att ge tips om formatet som ska användas. 
+Formuläret bör vara användbart även utan placeholder-attributet.  
+
+Jag tänkte inte lägga mig i hur ni väljer att stila era formulär men man bör ha i åtanke vad man har för målgrupp.
+Till ett seriöst företag till exempel lämpar det sig kanske med ett rent och enkelt formulär.
+Men om man arbetar med något mer lättsinnigt kan det vara ett bra tillfälle att testa sin kreativa sida, om man nu har någon, och göra något färgglatt och annorlunda.
+
+Några viktiga saker att tänka på:
+1.Vid validering se till att tydligt markera vart problemet är och vad det är som är fel. 
+Det är lätt att skrämma bort användare med för generella felmeddelanden, men med bra felmeddalanden kan använderen snabbt fixa felet och komma vidare.
+2.Få formuläret att kännas mer levande genom att använda focus och hover för att lysa upp det markerade fältet så det syns tydligt vart i formuläret man är.
+3.För att inte övervälma användaren kan det vara lämpligt att dela upp formuläret i olika delar med hjälp av fieldset och legend.
+4.Ibland kan ett input fält leda till mer frågor än det svarar. Man bör tänka efter om man vid lite mer komplicerade delar av formuläret kanske borde använda sig av t.ex dropdown-menyer istället för vanliga input fält.
+Till exempel kan det vara lämpligt vid "Hur hittade du oss?" frågor eller liknande där det annars kan vara otydligt vad man förväntas ange.
+5..Det viktigaste av allt med formuläret är att se till att användaren kommer till mållinjen. Mållinjen är i det här fallet submit-knappen.
+Formuläret gör ingen nytta om det aldrig skickas!
+Försök att göra det så tydligt som möjligt för användaren vad som kommer hända när knappen trycks genom att istället för att bara skriva "Skicka" så kan man skriva "Skicka Meddelande" eller "Skicka order"
+
+
+Så nästa gång ni gör ett formulär lägg ner lite extra tid på det!
+Tack för mig!

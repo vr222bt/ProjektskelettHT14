@@ -10,10 +10,10 @@ Det är inte ofta man ser en webbsida som inte använder sig av någon form av s
 Det är med hjälp av formulär som användaren interagerar med våran webbsida.
 Då kanske det är lämpligt att vi lägger lite mer tid på att göra våra formulär lite mer lätta att arbeta med.
 
-Hur ska vi då göra detta kan man då fråga sig?
+Hur ska vi göra detta kan man då fråga sig?
 Till vår hjälp finns en hel del attribut som vi känner igen som t.ex type som kan ha värdet text alternativt de nyare email eller url med flera.
 Med html5 kom även required-attributet som gör att man måste fylla i det berörda input fältet innan man kan skicka formuläret.
-Man bör dock tänka sig för innan man gör alla fält required. Är verkligen alla fält så viktiga att man vill hindra användaren från att skicka formuläret om man inte anger allt?
+Man bör dock tänka sig för innan man gör alla fält required. Är verkligen alla fält så viktiga att man vill hindra användaren från att skicka formuläret om allt inte anges?
 Förmodligen inte. Man kan till och med fundera på om informationen är användbar överhuvudtaget eller om man bör ta bort den helt från formuläret.
 
 Då vill man ju också komma åt att stila våra olika input fält på olika sätt beroende på om dom är required eller inte.
